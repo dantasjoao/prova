@@ -8,7 +8,7 @@ export class PostsController {
 
   @Get()
   async findAll() {
-    return this.prisma.post.findMany({
+    return this.prisma.posttt.findMany({
       where: { published: true },
       include: { author: true },
     });

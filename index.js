@@ -3,7 +3,7 @@ import { Controller, Get } from '@nestjs/common';
 import { PrismaService } from './prisma.service';
 
 @Controller('posts')
-export class PostsController {
+export class PostsControllerrr {
   constructor(private readonly prisma: PrismaService) {}
 
   @Get()
